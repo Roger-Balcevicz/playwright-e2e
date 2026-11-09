@@ -2,6 +2,18 @@
 
 teste
 
+## Prova - Nike
+
+Os cenários da prova estão em `src/scenarios/Nike.spec.ts`:
+
+1. Buscar por "air max" e exibir os produtos
+1. Abrir um produto a partir da busca (nome, preço e tamanhos)
+1. Adicionar na sacola sem escolher o tamanho (mensagem "Please select a size.")
+
+Para rodar só esses testes: `npm run scenario`.
+
+Os testes usam o site oficial global da Nike (https://www.nike.com/). O https://www.nike.com.br/ responde `403 Access Denied` para qualquer navegador automatizado, então não dá para rodar os testes nele.
+
 ## GitHub Actions + SonarCloud
 
 [![Build and Tests](https://github.com/ugioni/playwright-e2e/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/playwright-e2e/actions/workflows/node.js.yml)
